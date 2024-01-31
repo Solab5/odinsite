@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+.header,.body {
+    color: white;
+    background: #1F2937;
+    padding-top: 16px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.subhead {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.sidehead {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.web {
+    font-size: 48px;
+    font-weight: 900;
+}
+.para {
+    /* border: 1px solid white; */
+    padding: 85px;
+    height: 200px;
+    width: 800px;
+    background-color: darkgray;
+    text-align: center;
+}
+
+button {
+    background: blue;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+.body {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.body-title {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(38, 38, 194);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.box-section {
+    display: flex;
+}
+
+.box-text {
+    text-align: center;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* third */
+
+.body-two {
+    color: black;
+    background: rgb(164, 159, 159);
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+p.one {
+    flex: 1 1 0px;
+    align-self: center;
+    font-size: 24px;
+    color: rgb(68, 71, 74);
+    font-style: italic;
+}
+
+p.two {
+    flex: 1 1 0px;
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.second-last-div {
+    margin: 65px 200px;
+    padding: 50px 100px;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    background-color: rgb(89, 89, 206);
+    color: white;
+    border-radius: 18px;
+}
+
+.button{
+    background: none;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    padding: 5px;
+    border-radius: 18px;
+}
+
+p.one_ {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
